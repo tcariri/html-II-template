@@ -8,8 +8,35 @@
 </head>
 <body>
     <p>Uma tag <code>form</code> para começar</p>
-    <p>Um label e um input aqui:</p>
-    <p>E um botão para terminar.</p>
+    <form action="#">
+        <label for="nome"> Nome:</label>
+        <input type="text" name="nome" id="nome"/>
+        <br><br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="edereco" id="endereco"/>
+        <label for="numero">n°</label>
+        <input type="number" name="numero" id="numero"/>
+        <br><br>
+        <label for="data">data</label>
+        <input type="date" name="data" id="name"/>
+        <br><br>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email" required/>
+        <br><br>
+        <label for="">genero:
+        Fem<input type="radio" name="genero" value="fem" >
+        Masc<input type="radio" name="genero" value="masc" >
+        NB<input type="radio" name="genero" value="nb" >
+        </label>
+        <br><br>
+        <textarea type="text" placeholder="escreva a sua mensagem" rows="5" cols="33" style="resize:none"></textarea>
+        <br>
+
+        <button type="submit">enviar</button>
+        
+
+
+    </form>
 
 </body>
 </html>
